@@ -1,0 +1,50 @@
+<html>
+<head>
+<style>
+body {
+  background-image: url('https://c0.wallpaperflare.com/preview/534/41/125/school-books-young-adult-education.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+</style>
+</head>
+<body>
+
+<h1 style="color:blue;">UNIVERSITY ADMISSION PREDICTION SYSTEM</h1>
+<h2 style="color:black;">Enter your details and get probability of your admission</h2>
+
+<form action="/pred" method="POST">
+    <label for="fname">Enter GRE Score:</label>
+    <input type="text" id="fname" name="fname" required><br><br>
+    <label for="lname">Enter TOEFL Score:</label>
+    <input type="text" id="lname" name="lname" required><br><br>
+
+    <label for="for">Select University no:</label>
+    <select id="cars" name="univer">
+    <option value="0">1</option>
+    <option value="1">2</option>
+    <option value="2">3</option>
+    <option value="3">4</option>
+    <option value="4">5</option>
+    </select><br><br>
+
+
+    <label for="fname">Enter SOP:</label>
+    <input type="text" id="fname" name="sop" required><br><br>
+    <label for="lname">Enter LOR:</label>
+    <input type="text" id="lname" name="lor" required><br><br>
+    <label for="lname">Enter CGPA:</label>
+    <input type="text" id="lme" name="cgpa" required><br><br>
+    
+    <label for="fname">Research:</label>
+    <select id="cars" name="resear">
+    <option value="0">Research</option>
+    <option value="1">No Research</option>
+
+    </select><br><br>
+    <input type="submit" value="Predict">
+</form>
+</body>
+</html>
